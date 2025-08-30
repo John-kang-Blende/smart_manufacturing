@@ -1,0 +1,3 @@
+-- TimescaleDB hypertable (optional)
+-- CREATE EXTENSION IF NOT EXISTS timescaledb;
+-- SELECT create_hypertable('readings', 'ts', if_not_exists => TRUE);
